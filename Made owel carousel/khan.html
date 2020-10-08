@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="eng">
+<html>
+<head>
+       <title>owl carousel</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-sccalable=no" />
+        <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+        <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+
+         
+    <style>
+                
+               .item img{ max-width:100%;
+                           height: 700px;
+                            }
+
+    </style>
+
+
+ </head>
+ <body>
+ 	   
+ 	   
+ 	 <div class="owl-carousel owl-theme">
+       <div class="item"><img src="img/11.jpg"></div>
+       <div class="item"><img src="img/welding.jpg"></div>
+       <div class="item"><img src="img/workers.jpg"></div>
+       
+             
+       
+       
+     </div>
+<script src="css/jquery.js"></script>
+<script src="css/owl.carousel.js"></script>
+<script>
+
+	    $('.owl-carousel').owlCarousel({
+    loop:true,
+    item:true,
+    margin:0,        // aw da kho da pictures pa manz ke space show kai
+    nav:true,          // da nav ba ye true or false aw da ba ser (<>) sign dapara use kege
+    autoplay:true,
+    autoplayTimeout:3000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        }      
+    }
+})
+</script>
+ </body>
+ </html>
