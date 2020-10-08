@@ -1,0 +1,300 @@
+
+.nav{ margin-left:700px;
+      padding-top: 110px; }
+
+.nav a{ padding:30px;
+	    color: black;
+      font-size:20px;
+	    font-weight: bold;
+      text-decoration: none;
+
+    }
+    a:hover{color: red;}
+
+.header{ max-width:auto;
+	       height:750px;
+	       background:yellow;
+	       margin-top:-50px;
+       }
+
+.header h1{ padding-left:120px;
+            margin-top:-120px;
+            font-family:initial;
+            font-weight: bold;    }
+
+.header h2{ padding-left: 130px;
+	        padding-top:100px;
+	        font-size: 50px;
+	        font-weight: bold;
+	        font-family:serif;  }       
+
+.header .wait{ padding-top:0px;
+               padding-left:50px;
+               font-size:110px;
+               font-weight: bold;
+               font-family:algerian; }
+
+  .wait:hover{ font-size:125px;
+               color: red; }             
+
+ .header .banner img{ border-radius: 50%;
+                      margin-top: -480px;
+                      margin-left:750px; 
+                                          }
+
+.header .order{ padding-left: 115px;
+                margin-top:-20px;
+                font-size:30px;
+                font-weight:bold;
+                                   }
+
+.header .line{ border-top:2px solid black;
+               width: 430px;
+               margin-left: 140px; }
+
+.header .this{ padding-left:220px;
+	             padding-top:20px;
+               font-size:25px;
+               font-weight: bold;
+               font-family:initial;
+                                      }
+.header .this .happy{ margin-top:-20px; }
+
+.header .calculation{ padding-left:200px;
+	                   font-weight: bold;
+                     font-size:45px;
+                     margin-top:-70px;
+                                         }
+
+.header .btn{ margin-left:300px;
+              margin-top:30px;
+              width:250px;
+              height: 50px; }                    /**The header is done.**/
+
+.btn:hover{ background-color:green; }
+
+
+                /** the 2nd div tag **/
+
+.mid .choose{ padding-left:0px;
+              font-weight: bold;
+              text-align: center;
+              padding-top:50px;
+              font-family:initial; }
+
+.mid p{ text-align:center; }
+
+                                     /** 3rd div tag **/
+
+.section3 .space{ width: auto;
+                  height:100px;
+                  background-color:#dbda8f;
+                  margin-top: 180px; }
+
+
+
+
+.section3 .plates{ margin-left: 70px;
+                   margin-top: -260px; }
+
+.section3 .plates img{ padding: 50px;
+                       border-radius: 50%; }
+
+
+
+
+
+.three1{ padding-top: 20px;   }
+
+.section3 .three1 .heading1{ font-weight:bold;
+                            font-size:15px;
+                            padding-left:20px;
+                            font-family:initial; }
+
+.section3 .three1{ margin-left:160px;
+                  font-size:15px; }
+ 
+ .section3 .three1 .btn{ margin-left:50px; }
+
+ .section3 .three1 .secondp{ padding-left:25px;
+                            margin-top:-10px;    }
+
+
+                            /** second buttons**/
+.three2{ padding-left:580px; }
+
+.section3 .three2 .heading1{ font-weight:bold;
+                            font-size:15px;
+                            padding-top:20px;
+                            padding-left:25px;
+                            font-family:initial;
+                            margin-top: -125px;      }
+
+ 
+ .section3 .three2 .btn{ margin-left:50px; }
+
+ .section3 .three2 .secondp{ padding-left:25px;
+                            margin-top:-10px;    }
+
+                            /** 3th button**/
+
+.three3{ padding-left:680px; }
+
+.section3 .three3 .heading1{ font-weight:bold;
+                            font-size:15px;
+                            padding-top: 15px;
+                            padding-left:20px;
+                            font-family:initial;
+                            margin-top: -125px;      }
+
+
+
+.section3 .three3{ margin-left:300px; }
+ 
+ .section3 .three3 .btn{ margin-left:50px; }
+
+ .section3 .three3 .secondp{ padding-left:25px;
+                             margin-top:-10px;   }
+
+
+                            /** the 3rd section is complete here **/
+
+
+.images .try{ margin-top:-355px;
+              color: white;
+              font-family: initial;
+              font-weight:bold;
+              font-size:20px;
+              padding-left: 350px; }
+
+.images .most{ font-family: initial;
+               color: white;
+               font-size: 30px;
+               font-weight: bold;
+               padding-left:350px; }
+
+.images .second img{ margin-left:580px;    
+                     font-size: 50px;
+                     margin-top: -270px;
+                                          }   /** the second image **/
+
+.images .second .try2{ margin-left:610px;     
+                       margin-top:-200px;
+                       color: white;
+                       font-weight: bold;
+                       font-family: initial; }   /** more fun mor test **/
+
+.images .second .more{ margin-left: 610px;
+                       color: white;
+                       font-weight: bold;
+                       font-family: initial; }
+
+.images .third img{ margin-left: 580px;
+                    margin-top: 25px; }
+
+.images .third .today{ padding-left: 610px;      /** writing fresh and chilli**/
+                       margin-top:-150px; 
+                       color:white;
+                       font-weight: bold;
+                       font-family: initial;}
+
+.images .third .fresh{ padding-left: 610px;
+                       color: white;
+                       font-weight: bold;
+                       font-family: initial;
+                       font-size:30px; }
+
+                       /** 4th section **/
+
+.table{padding-top: 100px;}
+.table h5{ text-align: center;
+           font-weight: bold;
+           font-size: 30px;
+           padding-top: 100px; }
+
+.table h1{ text-align: center;
+            font-family:initial;
+            font-weight: bold;
+            font-size: 60px;  }
+
+
+
+.table input{ width:400px;
+              padding:20px;
+              height: 50px;
+              margin-left:300px;  }
+
+
+                      /**                          .name,.date,.people{ width:300px;
+                            padding:20px;
+                            margin-left:400px;  }  **/
+/**.table .date{ width:300px;
+             
+              height: 50px;
+              margin-left:400px;      } **/
+                                                
+/**.table .people{ width:300px;
+               
+                height: 50px;
+                margin-left:400px;   }  **/
+                                                
+
+/**.table .email{ 
+               height:50px;
+               margin-left: 600px;
+               margin-top:-195px; }  **/
+
+.table .email{ margin-left:400px;
+              margin-top: -215px;
+                     width: 300px;
+                     padding: 20px;    } 
+
+.table .time{ margin-left:400px;
+              margin-top: -40px;
+              width: 300px;
+              padding: 20px;  }
+
+.table .btn{ margin-left:720px;
+             margin-top:-20px;
+             height: 50px;
+	           font-weight:bold;
+	           background-color:yellow;
+	           font-family:serif;
+             width:400px; }
+
+             /** last section **/
+
+.last-section .black-color{ 
+                            width: auto;
+                            height: 500px;
+                            position:relative;
+                          
+                            margin:100px 0px 30px; } 
+
+.last-section { background-size: cover;
+                width: auto;
+                height: 500px;
+
+                 }
+
+.last-section .heading-last{ margin-top: -400px; 
+                             margin-left: 30px;
+                             font-weight:5;
+                             color: white;
+                             font-size:15px;}
+
+.last-section .copy{ margin-left:30px;
+                     padding-top: 200px;
+                     font-size:17px; }
+
+.last-section .min{ margin-top:-300px;
+                    margin-left: 907px;
+                    font-size: 20px; }
+
+.last-section  .info{ margin-right:230px;
+                      font-size:20px; }
+
+.fonts-icons{ margin-left:1100px;
+              margin-top: -120px;  }
+.fonts-icons i{ padding: 5px; }          
+
