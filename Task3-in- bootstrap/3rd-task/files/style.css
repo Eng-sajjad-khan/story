@@ -1,0 +1,181 @@
+
+                                      /*/** 1st sction header   ***/
+                                      /** #19185C  **/
+.body{ overflow-x: hidden; }
+.body a{ text-decoration: none; }
+
+.container-fluid .toprow{ background-color: #19185C ;
+                          height:auto; }              /** first row in first container-fluid css **/
+
+
+.toprow .flag-image img{ border-radius: 50%; }
+
+.toprow button{ background-color:#19185C;  }
+
+.dropdown:hover .dropdown-menu{ display:block; }
+
+.toprow .icons a{ text-decoration: none;
+                  font-size:30px;
+                  color: white;
+                   width:60px; }               /** all icons in css in the first row **/
+.toprow .icons a.glyphicon{ font-size:27px; }   /** the search icon css **/
+
+.toprow .icons a:hover{ background-color:#F5AD0D;      /** the all anchor icons hover css **/
+                        height:auto;
+                        margin-top: -50px; }
+
+
+
+   /** 1st row work finished **/
+
+ .container-fluid .secondrow{ height:auto;   }
+
+.container-fluid .secondrow .modern{ font-size:8px; }
+ 	                           
+.container-fluid .secondrow .facmaster{ font-weight: bold;
+	                                    letter-spacing:-2px;
+	                                    font-size:40px;        }
+
+.container-fluid .secondrow .call{ font-weight: bold;
+}
+.container-fluid .secondrow .call .contact{ font-size:13px; }
+.container-fluid .secondrow .mon{ font-weight:bold; }
+.container-fluid .secondrow .san{ font-weight:bold; }
+
+
+
+/** third rows start from here **/
+
+.height{ height: 700px;
+         position: relative;
+         background-size: cover; }
+
+.height:before{ background: rgba(20, 12, 12, 0.6);    
+             /**   content: "";  **/
+                position: absolute;
+                top: 0px;
+                margin-left: -15px;
+                width: 100%;
+                height: 100%;    }
+
+.height #container{height:auto; background-color:#19185C; }           
+
+.container .row .icon{height:60px;
+                      margin-top: 10px;
+                      margin-left:2px;
+                      font-size:25px;
+                      padding-left:25px;
+                      color:white;  }
+
+.container .row .team{background:#19185C;
+	                    height:60px;
+	                    padding-top:20px; }
+
+.container .card-body{margin-top:-22px; }
+
+.container .row #button{ background: #19185C;
+                         width:150px;
+                         height: 50px; }
+
+/**--------------------------------------------------------------------------------------------------------------**/
+                  /**------------------- new container-fluid starts from here ---------------------------------**/
+.container-fluid .row #color{ background-color:#19185C;}
+.container-fluid .row .cranimage{
+                                  background-repeat: no-repeat;
+                                  background-size:cover; }
+
+.container-fluid .row .image111:before{ background-color:rgba(246, 185, 59,0.9);
+                                       content: "";
+                                       position: absolute;
+                                       margin-left: -16px;
+                                       top: 0px;            
+                                       width:100%;
+                                       height: 100%;
+                                       overflow-x: hidden;    }
+
+
+/**----------------------------------------------------------------------------------------------------------------**/
+
+.container-fluid .row #card1{  margin-top: 60px; 
+                                }
+.container-fluid .row #card2{  margin-top: 80px;
+	                           }
+                               
+@media( max-width: 480px ){
+	                         #card1{ margin-left: -70px;
+	                                 padding-left: 0; }
+}
+
+
+
+/**----------------------------------------------------------------------------------------------------------------**/
+.container .row #card{ width: 300px }
+
+.container .row #card:hover{ box-shadow: 1px 10px 10px 0px #aaaaaa;
+                             transition:all 0.5s; }
+
+.container .row #title{ width: 200px;
+	                    height:50px;
+	                    margin-bottom:50px;
+                        margin-left:60px;
+                        margin-top:-35px; 
+	                    background: yellow;  }
+
+.container .row #ceo{ margin-top: -10px;
+                                         }
+
+@media screen(min-width: 480px){
+                      #card{
+                      	      width: 100%;
+                      },
+                      #title{ margin-left: 2px;}}
+
+ .container .row #icons li:hover{ background:grey;
+                                  box-shadow: 5px 15px 10px -5px #aaaaaa;
+                                  transition: 0.6s; }                               
+
+
+/**  -------------------------------------------------------------------------------------------------------------------**/
+              /** ---------------------- new contaainer hve form and some more things --------------**/
+ #newcontainer3{ margin-top:50px; width:100%; height:auto;}
+.container-fluid .card #request{ margin-left: 35px; }
+.container-fluid .card #button{ margin-bottom:30px; margin-left:28%; height:50px; }
+
+.container-fluid #card-container{ box-shadow: 10px 10px 40px -10px #aaaaaa; margin-top:50px; }
+
+.container-fluid #section2{ margin-top:30px; }
+.container-fluid #card2{ box-shadow: 10px 10px 40px -10px #aaaaaa; }
+ #newcontainer3 #marginb-row{ margin-bottom:80px; }
+
+/**---------------------------------------------------------------------------------------------------------------------------**/
+                                              /** container-fluid blue color  **/
+#blue-color{ width: 100%;
+             height:auto;
+             background-color:#19185C;
+             margin-bottom:200px; }
+
+#blue-color .class #expert{ margin-top: -5px; }
+
+
+
+     /**-------------------------------------------------------------------------------------------------------------**/
+#bggrey{ width:100%;
+        height:150px;
+        background-color:#F3F3F5; }
+
+
+
+/**-----------------------------------------------------------------------------------------------------------------**/
+#bluesection{ width:100%;
+              height:auto;
+              background-color:#19185C; }
+#bluesection #hovera{ margin-bottom:60px; }
+#bluesection #hovera a:hover{ background:#F4AF0C;
+                              height: 50px;   }
+                             
+
+/**----------------------------------------------------------------------------------------------------------------------------------**/
+                       /**----- Final section  **/
+     #finalsection{ background-color:#0E0F3F;
+     	            width:100%;
+                    height:auto; }
