@@ -1,0 +1,34 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prompt value from user</title>
+</head>
+<body>
+          <div id="numbers"></div>
+  <script>
+  	  var num =[];
+      var x = prompt("Enter numbers");
+
+     while(x!='x'){
+         x=prompt("Enter again numbers");
+        if (!isNaN(x)) {
+           num.push(x);
+           document.write("You entered :"+ x +" <br><br>");
+        }
+
+     }   
+          alert("You entered ' x ' it's over");
+          document.write("This is Array :"+ num +"<br>");
+          document.write("<br>Maximum value is : " + Math.max(...num) + "<br>");       
+          
+         
+         
+      
+ 
+  </script>
+
+</body>
+</html>
