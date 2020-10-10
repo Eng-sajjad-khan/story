@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>Form Validation in Javascript</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-image: url(css/66.jpg);
+            background-size: cover;
+        }
+        
+        form {
+            background: beige;
+            opacity: .9;
+            border-radius: 5px;
+        }
+        
+        #registration {
+            background: linear-gradient(to left, red, green, yellow);
+            height: 80px;
+            width: 100%;
+        }
+        
+        button {
+            width: 100%;
+            background: linear-gradient(to left, blue, pink);
+        }
+        
+        button:hover {
+            background: linear-gradient(to right, blue, pink);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="offset-md-3 col-sm-12 col-md-5 mt-4">
+
+            <form class="pb-3 border rounded" onsubmit="return validate()">
+                <h3 class="text-center pt-3 text-white font-weight-bold" id="registration">Registration Form</h3>
+                <div class="form-group w-75 ml-5">
+                    <label for="usr">Name:</label>
+                    <input type="text" class="form-control form-control-sm" id="name" name="name">
+                    <span id="username" class="text-danger"></span>
+                </div>
+                <div class="form-group w-75 ml-5">
+                    <label for="fname">Father Name:</label>
+                    <input type="text" class="form-control form-control-sm" id="fname" name="fname">
+                    <span id="fathername" class="text-danger"></span>
+                </div>
+                <div class="form-group w-75 ml-5">
+                    <label for="usr">Email:</label>
+                    <input type="email" class="form-control form-control-sm" id="email" name="email">
+                    <span id="emailalert" class="text-danger"></span>
+                </div>
+                <div class="form-group w-75 ml-5">
+                    <label for="usr">Mobile No:</label>
+                    <input type="number" class="form-control form-control-sm" id="number" name="mnumber">
+                    <span id="mnumber" class="text-danger"></span>
+                </div>
+                <div class="form-group w-75 ml-5">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control form-control-sm" id="password" name="password">
+                    <span id="passwordalert" class="text-danger"></span>
+                </div>
+                <div class="form-group w-75 ml-5">
+                    <label for="pwd">Confirm Password:</label>
+                    <input type="password" class="form-control form-control-sm" id="confirmpassword" name="password">
+                    <span id="confirmpasswordalert" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-lg border-0 text-white rounded-0">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="css/jquery3.5.1.js"></script>
+    <script src="css/bootstrap.min.js"></script>
+    <script>
+        function validate() {
+
+            var uname = document.getElementById('name').value;
+            // username validation
+            if (uname == "") {
+                document.getElementById('username').innerHTML = "Please fill the user name";
+                return false;
+            }
+
+            if ((uname.length < 2) || (uname.length > 20)) {
+                document.getElementById('username').innerHTML = "Your name length should be between 2 to 20 ";
+                return false;
+            }
+
+            if (!isNaN(uname)) {
+                document.getElementById('username').innerHTML = "Please enter charactor number is not allowed";
+                return false;
+            }
+
+
+            // father name validate
+
+            var f_name = document.getElementById('fname').value;
+            if (f_name == "") {
+                document.getElementById('fathername').innerHTML = "Please fill the father name";
+                return false;
+            }
+
+            if ((f_name.length < 2) || (f_name.length > 20)) {
+                document.getElementById('fathername').innerHTML = "Your name lenth should be between 2 to 20 ";
+                return false;
+            }
+
+            if (!isNaN(f_name)) {
+                document.getElementById('fathername').innerHTML = "Please enter charactor number is not allowed";
+                return false;
+            }
+
+            // email validation
+            var emailcheack = document.getElementById('email').value;
+            if (emailcheack == "") {
+                document.getElementById('emailalert').innerHTML = "Please enter your email";
+                return false;
+            }
+
+            /*  if(emailcheack.chartAt(emailcheack.length-4)!='.'){
+              	document.getElementById('emailalert').innerHTML = "Please . is not on perfect position";
+              	return false;
+              }            */
+            // mobile number validation.
+            var mobilenumber = document.getElementById('number').value;
+            if (mobilenumber == "") {
+                document.getElementById('mnumber').innerHTML = "Please enter your mobile number";
+                return false;
+            }
+            /*   if(isNaN(mobilenumber)){
+               	    document.getElementById('mnumber').innerHTML = "charactor is not allowed";
+                	return false;
+               }    */ // no need in bootstrap input number.
+
+            if (mobilenumber.length <= 10) {
+                document.getElementById('mnumber').innerHTML = "Please enter minum 10 digits";
+                return false;
+            }
+
+
+            // password validation
+            var password = document.getElementById('password').value;
+            if (password == "") {
+                document.getElementById('passwordalert').innerHTML = "Please enter password";
+                return false;
+            }
+            if (password.length <= 8) {
+                document.getElementById('passwordalert').innerHTML = "password must be greater than 8 digits";
+                return false;
+            }
+
+            // confirm password.
+            var confirmpassword = document.getElementById('confirmpassword').value;
+
+            if (confirmpassword == "") {
+                document.getElementById('confirmpasswordalert').innerHTML = "Please enter your password";
+                return false;
+            }
+
+            if (password != confirmpassword) {
+                document.getElementById('confirmpasswordalert').innerHTML = "password is not matched";
+                return false;
+            }
+
+            submit();
+        }
+
+
+        function submit() {
+            alert("You are loged successfully");
+        }
+
+        $('input').focus(function() {
+            $(this).css('background', 'red');
+        });
+    </script>
+</body>
+
+</html>
